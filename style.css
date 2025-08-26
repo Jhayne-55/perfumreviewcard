@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* h1{
+    font-family: "Montserrat", sans-serif;
+    font-family: "Fraunces", serif;
+} */
+body{
+    background-color: #F3EAE3;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+main{
+    width: 36.5rem;
+    height: 28.3rem;
+    display: flex;
+    align-items: center;
+}
+.card1{
+   width: 17rem; 
+   height: 28.3rem;
+}
+.card1 img{
+    width: 17rem;
+    border-radius: 10px 0 0 10px;
+    object-fit: cover;
+    height: 28.3rem;
+}
+.card2{
+    width: 17rem;  
+    height: 28.3rem; 
+    background-color: white;
+    border-radius: 0 10px 10px 0;
+    padding: 2rem;
+}
+.product{
+    color: #6c7289;
+    font-size: 14px;
+    letter-spacing: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+.sub-topic{
+    color:  #1c232b;
+    font-family: "Fraunces", serif;
+    padding: 1rem 0;
+    line-height: 1;
+}
+.description{
+    font-size: 14px;
+    line-height: 24px;
+    color:#6c7289 ;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+.price h1{
+    color: #3c8067;
+    font-family: "Fraunces", serif;
+
+}
+.price p{
+    text-decoration: line-through;
+    color: #6c7289;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+}
+button{
+    outline: none;
+    border: none;
+    background-color: #1b4133;
+    color: white;
+    padding: 1rem ;
+    width: 100%;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+}
+ @media (max-width:30rem) {
+    main{
+       flex-direction: column;
+       width: 23.4rem;
+       height: 35rem;
+    }
+    .card1{
+        height: 12rem;
+    }
+    .card1 img{
+        height: 12rem;
+        object-fit: cover; 
+        border-radius: 10px 10px 0 0;
+    }
+    .card2{
+        height: 22rem;  
+        border-radius: 0 0 10px 10px;
+        padding: 1rem;
+    }
+    .sub-topic{
+        font-size: 24px;
+    }
+    .description{
+        font-size: 12px;
+    }
+    .price h1{
+        font-size: 26px;
+    }
+    .price p{
+        font-size: 12px;
+    }
+    button{
+        font-size: 12px;
+    }
+ }
+ @media (max-width:37.5rem) {
+    main{
+        width: 30rem;
+       
+    }
+    .card1{
+        width: 15rem; 
+   
+     }
+     .card1 img{
+         width: 15rem;
+    
+         object-fit: cover;
+        
+     }
+     .card2{
+        width: 15rem;
+        padding: 1.5rem;
+     }
+ }
